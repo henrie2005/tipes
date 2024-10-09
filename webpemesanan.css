@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('img/background2.jpg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e6edf6;  
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #000;
+}
+
+h2 span {
+    font-size: 20px;
+}
+
+.flight-info {
+    background-color: #dce6f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.flight-info p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.flight-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-time ul {
+    list-style-type: none;
+}
+
+.flight-time ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.airline img {
+    width: 50px;
+    float: right;
+    margin-top: -117px;
+
+}
+
+.traveler-details {
+    background-color: #dce6f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.traveler-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.traveler-details label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.traveler-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: right;
+    background-color: #dce6f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #286090;
+}

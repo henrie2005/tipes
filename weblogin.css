@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color:rgba(216, 226, 238, 1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.forgot-password {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #ff6347;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-box button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-box .login-btn {
+    background-color: #4682B4;
+    color: white;
+    cursor: pointer;
+}
+
+.button-box .login-btn:hover {
+    background-color: #4169E1;
+}
+
+.button-box button[type="submit"]:first-child {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.button-box button[type="submit"]:first-child:hover {
+    background-color: #f1f1f1;
+}

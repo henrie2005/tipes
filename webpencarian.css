@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('img/background2.jpg');
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 60px;
+}
+
+.search-section {
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.flight-options {
+    max-width: 800px;
+    margin: auto;
+}
+
+.flight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7faff;
+    border: 2px solid #dce8f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.flight img {
+    height: 40px;
+}
+
+.flight-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.flight-time {
+    font-weight: bold;
+}
+
+.price {
+    color: #f26222;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #2d8ef0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid #2d8ef0;
+}

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: transparent;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white(0, 87, 179, 0.3); 
+    padding: 10px 20px; 
+    position: fixed;
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 57px;
+    height: 18px;
+}
+
+.links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex; 
+    gap: 10px; 
+}
+
+.auth-buttons button {
+    background-color: rgb(34, 119, 230);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.hero {
+    background-image: url('img/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    max-width: 300px;
+}
+
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="date"], select {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.return-date-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    margin-left: 10px; 
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    transform: scale(1.2);
+}
+
+
+button {
+    background-color: rgb(34, 119, 230);
+    color: white;
+    padding: 15px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(34, 119, 230);
+}
+
+.promo {
+    padding: 20px;
+}
+
+.promo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.promo-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-image: url('img/background2.jpg');
+    background-size: 200%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 311px;
+    height: 391px;
+}
+
+.card span {
+    display: block;
+    background-color: rgb(34, 119, 230);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
